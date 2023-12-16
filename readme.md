@@ -24,4 +24,6 @@ These old joysticks are essentially composed of switches connected to a common s
 
 I  quickly hacked together some code to do something useful with these LEDs. It was never intended to be published, but it works.
 
-Simply open it in the Arduino IDE, compile it, and then flash it to the ESP
+Simply open it in the Arduino IDE, compile it, and then flash it to the ESP.
+
+It depends only on the FastLED libaray. Tested with version 3.6.

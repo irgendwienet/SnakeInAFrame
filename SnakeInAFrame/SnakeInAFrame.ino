@@ -1,4 +1,4 @@
-#include <FastLED.h>
+#include <FastLED.h> // works with v3.6
 
 #define LED_PIN     12 // D6
 #define NUM_LEDS    256
