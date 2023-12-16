@@ -1,4 +1,4 @@
-# Snake on an 16x16 LED matrix
+# Snake on a 16x16 LED matrix
 
 A while back, I came across a 16x16 LED matrix equipped with WS2812 LEDs and couldn't resist purchasing it. At first, I didn't have a specific purpose in mind for it, so I decided to experiment. I connected it to an ESP8266 microcontroller and integrated an old joystick from the Commodore C64 era. To give it a neat finish, I housed the entire setup in an IKEA Sannahed picture frame and then developed some software to bring it all to life.
 
