@@ -14,11 +14,19 @@ A while back, I came across a 16x16 LED matrix equipped with WS2812 LEDs and cou
 
 ## Wiring
 
-The three cables from the LED matrix are connected as follows: one goes to GND, another to +5V, and the last one to GPIO06. That's all that's needed for the display setup.
+The three cables from the LED matrix are connected as follows: one goes to GND, another to +5V, and the last one to GPIO12. That's all that's needed for the display setup.
 
 These old joysticks are essentially composed of switches connected to a common signal. Each button simply shorts this common signal to one of the pins on the sub-D connector. To set it up, simply connect the common signal to GND and the other pins to some GPIOs configured as inputs with pull-up resistors enabled."
 
 ![](docs/wiring.png)
+
+On some different boards the GPIOs my have other names:
+ - GPIO_12 output for LED = D6
+ - GPIO_00 input joystick right = D3
+ - GPIO_04 input joystick left = D2
+ - GPIO_05 input joystick down = D1
+ - GPIO_13 input joystick up = D7
+ - GPIO_14 input joystick fire = D5
 
 ## Software
 
